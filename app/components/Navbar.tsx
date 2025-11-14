@@ -24,7 +24,6 @@ export default function Navbar() {
   return (
     <header className="relative w-full">
       
-      {/* LOGO FLOTANTE */}
       <div className="absolute left-4 top-2 md:left-20 md:top-0 z-50 transition-all">
         <Image
           src="/logo.jpg"
@@ -35,7 +34,7 @@ export default function Navbar() {
         />
       </div>
 
-      {/* TOP BAR → oculto al hacer scroll */}
+
       <div
         className={`bg-[#57b33e] text-white text-sm font-semibold px-6 flex justify-center transition-all duration-300
         ${hideTopBar ? "h-0 opacity-0 py-0 overflow-hidden" : "py-3 md:py-5 h-auto opacity-100"}`}
