@@ -2,7 +2,7 @@
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#57b33e] text-white py-15 px-6 md:px-20 mt-20">
+    <footer id="footer" className="w-full bg-[#57b33e] text-white py-15 px-6 md:px-20 mt-20">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-14">
 
         <div>
