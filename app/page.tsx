@@ -1,5 +1,8 @@
 "use client";
+
+import { useRouter } from "next/navigation";
 export default function Home() {
+  const router = useRouter();
   return (
     <>
       {/* SECCIÓN HERO */}
@@ -22,7 +25,7 @@ export default function Home() {
 
           <button
             className="bg-[#57b33e] hover:bg-[#4a9c34] transition text-white font-semibold px-8 py-4 rounded-lg text-lg shadow-lg"
-            onClick={() => console.log("Ir a evaluar")}
+            onClick={() => router.push("/evaluar")}
           >
             Evaluar
           </button>
